@@ -1,16 +1,21 @@
 {
-  "name": "web3-boilerplate",
+  "name": "web3-dev-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "ganache": "ganache --wallet.seed Customseed --database.dbPath chainData --chain.chainId 1337 --server.ws true --server.port 8545"
-
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jeheon Yeom",
+  "license": "MIT",
   "dependencies": {
-    "ganache": "^7.1.0"
+    "ganache": "^7.1.0",
+    "truffle": "^5.5.12"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.33",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   }
 }
