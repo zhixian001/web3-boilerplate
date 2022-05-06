@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ganache": "ganache --wallet.seed Customseed --database.dbPath chainData --chain.chainId 1337 --server.ws true --server.port 8545"
+
   },
   "keywords": [],
   "author": "",
