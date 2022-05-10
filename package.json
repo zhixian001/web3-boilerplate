@@ -7,7 +7,9 @@
     "ganache": "ganache --wallet.seed Customseed --database.dbPath chainData --chain.chainId 1337 --server.ws true --server.port 8545",
     "start": "ts-node src/index.ts",
     "truf:mig": "truffle migrate",
-    "truf:console": "truffle console"
+    "truf:console": "truffle console",
+    "truf:build": "truffle build",
+    "truf:compile": "truffle compile"
   },
   "keywords": [],
   "author": "Jeheon Yeom",
