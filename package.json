@@ -4,12 +4,18 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "ganache": "ganache --wallet.seed Customseed --database.dbPath chainData --chain.chainId 1337 --server.ws true --server.port 8545"
+    "ganache": "ganache --wallet.seed Customseed --database.dbPath chainData --chain.chainId 1337 --server.ws true --server.port 8545",
+    "start": "ts-node src/index.ts",
+    "truf:mig": "truffle migrate",
+    "truf:console": "truffle console"
   },
   "keywords": [],
   "author": "Jeheon Yeom",
   "license": "MIT",
   "dependencies": {
+    "@ethersproject/abi": "^5.6.1",
+    "@ethersproject/providers": "^5.6.5",
+    "@openzeppelin/contracts": "^4.6.0",
     "ganache": "^7.1.0",
     "truffle": "^5.5.12"
   },
